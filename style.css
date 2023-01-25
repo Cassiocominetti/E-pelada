@@ -1,6 +1,8 @@
 body {
   font-family: 'Inter', sans-serif;
-  background-image: url(./assets/bg-2.jpg);
+  //background-image: url(./assets/bg-2.jpg);
+  background-image: url(./assets/bg-mob.png);
+
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -50,4 +52,18 @@ label {
 
 button:hover {
   scale: 1.05;
+}
+
+//---RESPONSIVIDADE-------------------------------------//
+
+@media (min-width: 500px) {
+  body {
+    background-image: url(./assets/bg-mob2.png);
+  }
+}
+
+@media (min-width: 820px) {
+  body {
+    background-image: url(./assets/bg-2.jpg);
+  }
 }
