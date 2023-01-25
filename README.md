@@ -31,7 +31,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O E-pelada foi desenvolvido como prática de estudo em desenvolvimento front-end.
 
-- [Visite o projeto online](https://github.com/Cassiocominetti)
+- [Visite o projeto online](https://github.com/Cassiocominetti/E-pelada)
+
+- [Acesse o app](https://cassiocominetti.github.io/E-pelada/)
 
 ## Licença
 

@@ -38,10 +38,16 @@ select {
   font-weight: bold;
 }
 
-button {
+button,
+label {
   background-color: navy;
   border: none;
   padding: 8px;
   border-radius: 5px;
-  color: #fff;
+  color: white;
+  font-size: 13px;
+}
+
+button:hover {
+  scale: 1.05;
 }
