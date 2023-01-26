@@ -12,27 +12,30 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./assets/fav.jpg" />
   </head>
   <body>
     <div id="container">
-      <h1>E-pelada - Criador de Times</h1>
-      <input type="text" id="nomeJogador" placeholder="Nome do jogador" />
-      <button onclick="adicionarJogador()">Adicionar jogador</button>
-      <div id="jogadores"></div>
-      <label for="#numeroDeTimes">Nº de times</label>
-      <select id="numeroDeTimes" onchange="setNumeroDeTimes(this.value)">
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-      </select>
-      <button onclick="dividirTimes()">Dividir times</button>
-      <button onclick="resetar()">Resetar</button>
-      <div id="time1"></div>
-      <div id="time2"></div>
-      <div id="time3"></div>
-      <div id="time4"></div>
+      <header>
+        <img src="./assets/logomarca.svg" alt="Logomarca da E-pelada" />
+      </header>
+      <main>
+        <input type="text" id="nomeJogador" placeholder="Nome do jogador" />
+        <button onclick="adicionarJogador()">Adicionar jogador</button>
+        <div id="jogadores"></div>
+        <label for="#numeroDeTimes">Nº de times</label>
+        <select id="numeroDeTimes" onchange="setNumeroDeTimes(this.value)">
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <button onclick="dividirTimes()">Dividir times</button>
+        <button onclick="resetar()">Resetar</button>
+        <div id="time1"></div>
+        <div id="time2"></div>
+        <div id="time3"></div>
+        <div id="time4"></div>
+      </main>
     </div>
-
     <script src="./script.js"></script>
   </body>
 </html>

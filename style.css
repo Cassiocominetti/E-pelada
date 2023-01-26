@@ -1,46 +1,61 @@
-body {
-  font-family: 'Inter', sans-serif;
-  background-image: url(./assets/bg-mob.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+/*---GERAL----------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+
+body {
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background-image: url(./assets/bg.jpg);
+  background-position: top;
+}
+
+/*---CONTAINER----------------------------------------------*/
 
 #container {
-  padding: 20px;
   text-align: center;
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto 0 auto;
 }
 
-h1 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+header {
+  padding: 20px;
 }
 
-input {
-  margin: 10px;
+img {
+  width: 100%;
+  max-width: 550px;
 }
 
+input,
 select {
   margin: 10px;
+  border-radius: 4px;
+  padding: 4px;
 }
 
-#jogadores {
-  margin: 10px;
-  font-size: 20px;
-  font-weight: bold;
+input:hover,
+select:hover {
+  border: 3px solid cornflowerblue;
 }
 
+#jogadores,
 #time1,
 #time2,
-#time3,
-#time4 {
+#time3 {
   margin: 10px;
-  font-size: 20px;
+  font-size: 18px;
+  color: black;
   font-weight: bold;
 }
 
 button,
 label {
-  background-color: navy;
+  background-color: midnightblue;
   border: none;
   padding: 8px;
   border-radius: 5px;
@@ -48,18 +63,21 @@ label {
   font-size: 13px;
 }
 
+label {
+  background-color: black;
+}
+
 button:hover {
   scale: 1.05;
 }
 
-@media (min-width: 512px) {
-  body {
-    background-image: url(./assets/bg-mob2.png);
-  }
-}
+/*---BREAKING POINT----------------------------------------------*/
 
-@media (min-width: 810px) {
-  body {
-    background-image: url(./assets/bg-2.jpg);
+@media (min-width: 380px) {
+  #jogadores,
+  #time1,
+  #time2,
+  #time3 {
+    font-size: 20px;
   }
 }
