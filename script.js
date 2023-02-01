@@ -13,6 +13,12 @@ function dividirTimes() {
   for (let i = 0; i < numeroDeTimes; i++) {
     times[i] = []
   }
+
+  for (let i = jogadores.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1))
+    ;[jogadores[i], jogadores[j]] = [jogadores[j], jogadores[i]]
+  }
+
   for (let i = 0; i < jogadores.length; i++) {
     times[i % numeroDeTimes].push(jogadores[i])
   }
