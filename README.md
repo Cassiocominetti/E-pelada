@@ -1,7 +1,7 @@
-<h1 align="center"> APP E-pelada </h1>
+<h1 align="center"> E-pelada </h1>
 
 <p align="center">
-A aplicação "E-pelada" foi desenvolvida para auxiliar na divisão de times, nos mais variados esportes coletivos, com foco nas tão disputadas "peladas" do nosso Brasil. <br/>
+O criador de times "E-pelada" foi desenvolvido para auxiliar na divisão de times, nos mais variados esportes coletivos, com foco nas tão disputadas "peladas" do nosso Brasil. <br/>
 </p>
 
 <p align="center">
